@@ -1,0 +1,10 @@
+
+def main():
+    No = int(input("Enter number: "))
+    for i in range(1,No+1):
+        for j in range(1, No+1):
+            print(f" {j}", end=" ")
+        print()
+
+if __name__ == "__main__":
+    main()
