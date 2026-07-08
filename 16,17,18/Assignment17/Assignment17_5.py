@@ -10,6 +10,7 @@ def ChkPrime(No):
         return True
     else:
         return False
+
 def main():
     No = int(input("Enter number: "))
 
