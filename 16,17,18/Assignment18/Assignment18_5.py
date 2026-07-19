@@ -5,7 +5,6 @@ def ListPrime(InputLst):
     for val in InputLst:
         ret = MarvellousNum.ChkPrime(val)
         if ret == True:
-            print(val)
             PrimeCnt +=val
     return PrimeCnt
 
